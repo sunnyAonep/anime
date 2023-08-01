@@ -1,0 +1,16 @@
+body{
+    background-image: url(gif/wallpaperflare.com_wallpaper.jpg);
+    overflow: hidden;
+}
+img{
+    position: relative;
+    margin-top: 32%;
+    animation-name: walking;
+    animation-duration: 15s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes walking{
+    0%{left: -10%;}
+    100%{left: 110%;}
+}
